@@ -1,0 +1,51 @@
+.calendar {
+  max-width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #935050;
+  padding: 10px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  position: relative;
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #824f4f;
+  cursor: pointer;
+}
+
+.start-date {
+  background-color: #4caf50;
+  color: #7a2929;
+}
+
+.end-date {
+  background-color: #f44336;
+  color: rgb(164, 86, 86);
+}
+
+.selected {
+  background-color: #b97272;
+  color: rgb(128, 39, 39);
+}
+
+.mark {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(114, 43, 43);
+}

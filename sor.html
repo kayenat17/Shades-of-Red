@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Tracker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0dbd9;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cda3a3;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #1e3043;
+        }
+        h2 {
+            color: #bd7430;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="date"],
+        input[type="text"],
+        button {
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #341509;
+            color: #7c393999;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #581414;
+        }
+        #moodList {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #moodList li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Women's Tracker</h1>
+        <div id="menstrualCycleTracker">
+            <h2>Ovulation Tracker</h2>
+            <label for="lastPeriod">Last Period Date:</label>
+            <input type="date" id="lastPeriod" class="form-control">
+            <button onclick="calculateOvulation()" class="btn btn-primary">Calculate Ovulation</button>
+            <p id="ovulationDate"></p>
+        </div>
+        <div id="moodTracker">
+            <h2>Mood Tracker</h2>
+            <label for="mood">Current Mood:</label>
+            <input type="text" id="mood" class="form-control">
+            <button onclick="trackMood()" class="btn btn-primary">Track Mood</button>
+            <ul id="moodList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
