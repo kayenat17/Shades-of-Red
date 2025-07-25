@@ -1,4 +1,6 @@
 # Shades-of-Red
+A live page of my project is added. Just check it out
+
 Landing Page
 
 <img width="632" alt="Screenshot 2025-02-06 033436" src="https://github.com/user-attachments/assets/e9b0f7a3-61d0-43d2-83fc-657da52c4d05" />
