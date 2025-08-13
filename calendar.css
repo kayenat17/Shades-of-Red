@@ -1,0 +1,81 @@
+:root {
+  --cal-surface: var(--sor-surface, #f8efef);
+  --cal-bg: #ffffff;
+  --cal-primary: var(--sor-primary, #932424);
+  --cal-accent: var(--sor-accent, #b24141);
+  --cal-text: var(--sor-text, #3d1f1f);
+  --cal-border: var(--sor-border, #ead1d1);
+  --cal-fertile: #e6f7f2;
+  --cal-ovul: #fff5cc;
+  --cal-period: #fde2e2;
+}
+
+.cal-card {
+  background: var(--cal-bg);
+  border: 1px solid var(--cal-border);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.cal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.cal-title { font-weight: 700; color: var(--cal-primary); }
+
+.cal-controls { display: flex; gap: 8px; align-items: center; }
+.cal-btn {
+  border: 1px solid var(--cal-border);
+  background: linear-gradient(135deg, #fff, var(--cal-surface));
+  color: var(--cal-text);
+  padding: 8px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.cal-btn.primary { background: var(--cal-primary); color: #fff; border-color: var(--cal-primary); }
+.cal-btn:hover { filter: brightness(0.98); }
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.cal-weekday { font-size: 12px; text-align: center; color: #7a6c6c; padding-bottom: 6px; }
+
+.cal-day {
+  position: relative;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid var(--cal-border);
+  border-radius: 10px;
+  cursor: pointer;
+  background: #fff;
+}
+.cal-day.muted { opacity: 0.45; }
+.cal-day.today { outline: 2px dashed var(--cal-accent); outline-offset: -4px; }
+.cal-day.period { background: var(--cal-period); }
+.cal-day.period-start { box-shadow: inset 0 0 0 2px var(--cal-accent); }
+.cal-day.period-end { box-shadow: inset 0 0 0 2px var(--cal-accent); }
+.cal-day.fertile { background: var(--cal-fertile); }
+.cal-day.ovulation { background: var(--cal-ovul); font-weight: 700; }
+
+.cal-day .mood-dot {
+  position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%);
+  width: 6px; height: 6px; border-radius: 50%; background: var(--cal-primary);
+}
+
+.cal-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; color: #6b5a5a; font-size: 13px; }
+.cal-legend .chip { display: inline-flex; align-items: center; gap: 6px; }
+.cal-legend .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+@media (max-width: 560px) {
+  .cal-grid { gap: 4px; }
+  .cal-day { padding: 8px 0; }
+}
+
