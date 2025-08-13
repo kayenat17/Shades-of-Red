@@ -1,0 +1,10 @@
+{
+  "name": "Shades of Red",
+  "short_name": "SOR",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#eaddd3",
+  "theme_color": "#932424",
+  "icons": []
+}
+
