@@ -1,0 +1,101 @@
+[
+  {"q":"Is this medical advice?","a":"No. This chatbot provides general educational information only and is not a substitute for professional medical advice, diagnosis, or treatment. Seek a qualified clinician for personal care.","tags":["safety","disclaimer"]},
+
+  {"q":"What is a normal menstrual cycle length?","a":"Most adults have cycles between 21–35 days, commonly around 28 days. Teens may have longer or irregular cycles for the first few years.","tags":["cycle","basics"]},
+  {"q":"How long should a period last?","a":"Typically 2–7 days.","tags":["cycle","basics"]},
+  {"q":"What counts as day 1 of my cycle?","a":"Day 1 is the first day of true menstrual bleeding (not just light spotting).","tags":["cycle","basics"]},
+  {"q":"Why are my periods irregular as a teen?","a":"The brain–ovary axis matures over time; irregular cycles are common in the first 2–3 years after the first period (menarche).","tags":["cycle","teens"]},
+  {"q":"Can cycles vary month to month?","a":"Yes. Stress, illness, travel, and lifestyle changes can shift timing slightly. Persistent large changes should be evaluated.","tags":["cycle","timing"]},
+
+  {"q":"Why is my period late?","a":"Common reasons include stress, illness, travel/time-zone changes, weight change, intense exercise, medications, hormonal shifts, or pregnancy.","tags":["timing","late"]},
+  {"q":"Why did my period come early?","a":"Temporary hormonal fluctuations, stress, or illness can cause earlier bleeding in a cycle.","tags":["timing","early"]},
+  {"q":"What is oligomenorrhea?","a":"Infrequent periods: average cycles longer than 35 days.","tags":["timing","definitions"]},
+  {"q":"What is amenorrhea?","a":"Absent periods for 3+ months (previously regular) or 6+ months (previously irregular). Seek evaluation.","tags":["timing","definitions"]},
+  {"q":"What is menorrhagia?","a":"Heavy menstrual bleeding: soaking pads/tampons every 1–2 hours, large clots, or bleeding >7 days. Consider medical evaluation.","tags":["timing","heavy-bleeding"]},
+
+  {"q":"What is PMS?","a":"Premenstrual symptoms (mood changes, cramps, bloating, breast tenderness) occurring before a period.","tags":["pms","mood"]},
+  {"q":"What is PMDD?","a":"Premenstrual dysphoric disorder is a severe form of PMS with significant mood symptoms that impair daily life. Professional care is recommended.","tags":["pms","pmdd","mood"]},
+  {"q":"How can I manage mood swings around my period?","a":"Prioritize sleep, regular exercise, balanced meals, hydration, stress reduction, and social support. Seek help if symptoms are severe.","tags":["mood","self-care"]},
+  {"q":"Can stress delay my period?","a":"Yes. Stress can suppress or delay ovulation, which can delay menstruation.","tags":["stress","timing"]},
+  {"q":"Does anxiety or depression affect cycles?","a":"They can influence hormones, sleep, and habits that affect cycles. Consider comprehensive support and professional care.","tags":["mental-health","mood"]},
+
+  {"q":"What causes period cramps?","a":"Uterine contractions driven by prostaglandins help shed the lining but can cause pain.","tags":["cramps","pain"]},
+  {"q":"How can I relieve cramps?","a":"Heat therapy, gentle movement, hydration, and NSAIDs (e.g., ibuprofen/naproxen) used as directed can help.","tags":["cramps","relief"]},
+  {"q":"When are cramps concerning?","a":"If sudden, worsening, interfering with daily life, or unresponsive to OTC meds. Seek evaluation.","tags":["cramps","warning"]},
+  {"q":"Can I exercise on my period?","a":"Yes. Light to moderate activity often reduces cramps, improves mood, and boosts energy.","tags":["exercise","lifestyle"]},
+
+  {"q":"What is considered heavy bleeding?","a":"Soaking a pad/tampon every 1–2 hours, passing large clots, or bleeding longer than 7 days.","tags":["flow","heavy"]},
+  {"q":"Why do I see blood clots?","a":"Slower flow can clot in the vagina; small clots are common. Frequent or large clots warrant evaluation.","tags":["flow","clots"]},
+  {"q":"Is a very light period normal?","a":"It can be. Hormonal contraception, stress, low body weight, and perimenopause are common causes.","tags":["flow","light"]},
+  {"q":"Why does period blood change color?","a":"Fresh flow is bright red; slower/older blood appears dark red or brown. Both can be normal.","tags":["flow","color"]},
+  {"q":"What if there’s a bad odor during my period?","a":"A mild metallic smell is common. Strong, fishy, or foul odor may indicate infection—seek evaluation.","tags":["flow","odor","infection"]},
+
+  {"q":"How often should I change pads or tampons?","a":"Every 4–6 hours or sooner if saturated. Do not exceed labeled wear times, especially for tampons.","tags":["products","hygiene"]},
+  {"q":"What is TSS with tampons?","a":"Toxic Shock Syndrome is rare but serious. Minimize risk by using the lowest absorbency needed and changing tampons as directed.","tags":["products","tampons","safety"]},
+  {"q":"Are menstrual cups safe?","a":"Yes, when used and cleaned as directed. They reduce waste and can be worn for extended periods per manufacturer guidance.","tags":["products","cups"]},
+  {"q":"How do I clean a menstrual cup?","a":"Wash with mild, unscented soap and water. Sterilize as per manufacturer instructions (often by boiling between cycles).","tags":["products","cups","hygiene"]},
+  {"q":"Can I swim during my period?","a":"Yes—tampons and cups work well for swimming.","tags":["lifestyle","swimming"]},
+  {"q":"Should I use scented products?","a":"Avoid scented washes/deodorants—they can irritate tissue and disrupt natural pH.","tags":["hygiene","products"]},
+
+  {"q":"What foods help during periods?","a":"Balanced meals with iron-rich foods, leafy greens, fruits, whole grains, and lean proteins. Hydrate and limit excess salt.","tags":["nutrition","self-care"]},
+  {"q":"Should I take iron supplements?","a":"If heavy bleeding or low iron is suspected, discuss testing and supplements with a clinician.","tags":["nutrition","anemia"]},
+  {"q":"Is coffee okay during periods?","a":"Moderation is fine; caffeine may worsen anxiety or breast tenderness in some people.","tags":["nutrition","caffeine"]},
+  {"q":"Do vitamins help PMS?","a":"Some find benefit with calcium, vitamin B6, magnesium, and omega-3s. Discuss with a clinician before starting supplements.","tags":["pms","supplements"]},
+
+  {"q":"Is sex during periods safe?","a":"Yes with consent and protection. Condoms reduce infection risk.","tags":["sex","safety"]},
+  {"q":"Can I get pregnant on my period?","a":"It’s less likely but possible, especially with short or irregular cycles.","tags":["sex","pregnancy"]},
+  {"q":"Is period sex messy?","a":"It can be. Use protection and consider towels or waterproof sheets.","tags":["sex","practical"]},
+
+  {"q":"When do most people ovulate?","a":"Often ~14 days before the next period in a 28-day cycle; timing varies with cycle length.","tags":["ovulation","fertility"]},
+  {"q":"How do I estimate ovulation without tests?","a":"Track cycles, monitor cervical mucus changes (stretchy/egg-white mid-cycle), and note ovulation-related symptoms.","tags":["ovulation","tracking"]},
+  {"q":"What is implantation bleeding?","a":"Usually lighter/shorter spotting around when a period is due. A pregnancy test clarifies.","tags":["pregnancy","implantation"]},
+  {"q":"When should I take a pregnancy test?","a":"From the first day of a missed period or about 14+ days after suspected ovulation.","tags":["pregnancy","testing"]},
+
+  {"q":"How does birth control affect periods?","a":"It can lighten, shorten, or regulate periods; some methods cause skipped periods.","tags":["birth-control","periods"]},
+  {"q":"Is it okay to skip a period on the pill?","a":"Many extended-cycle regimens allow this safely; follow your provider’s guidance.","tags":["birth-control","pill"]},
+  {"q":"What about hormonal IUDs and periods?","a":"They often lead to lighter periods or spotting over time; some people experience very light or absent periods.","tags":["birth-control","iud"]},
+  {"q":"Do implants or injections affect periods?","a":"They can cause irregular bleeding at first; many users see lighter or less frequent periods over time.","tags":["birth-control","implant","injection"]},
+  {"q":"Can emergency contraception affect my next period?","a":"Yes, it may cause the next period to come earlier or later than usual.","tags":["birth-control","ec"]},
+
+  {"q":"What is PCOS?","a":"Polycystic ovary syndrome: irregular cycles, excess androgens (e.g., acne, hirsutism), and polycystic ovaries. Evaluation guides care.","tags":["conditions","pcos"]},
+  {"q":"What is endometriosis?","a":"Endometrial-like tissue grows outside the uterus, causing pain, heavy bleeding, and sometimes fertility issues.","tags":["conditions","endometriosis"]},
+  {"q":"What are uterine fibroids?","a":"Non-cancerous growths that may cause heavy bleeding, pain, or pressure symptoms.","tags":["conditions","fibroids"]},
+  {"q":"Can thyroid problems affect periods?","a":"Yes. Both hypo- and hyperthyroidism can alter cycle length and bleeding.","tags":["conditions","thyroid"]},
+  {"q":"Can anemia be related to periods?","a":"Heavy or prolonged bleeding can lower iron levels, leading to anemia.","tags":["conditions","anemia"]},
+
+  {"q":"Is vaginal discharge normal during the cycle?","a":"Yes. Clear/white, stretchier discharge mid-cycle is common. Changes with odor, itching, or pain suggest evaluation.","tags":["infections","discharge"]},
+  {"q":"What is BV and can it happen around my period?","a":"Bacterial vaginosis can occur anytime; symptoms include thin discharge and fishy odor. Seek evaluation for proper treatment.","tags":["infections","bv"]},
+  {"q":"What about yeast infections and periods?","a":"Hormonal shifts can alter pH and flora. Thick, itchy discharge suggests yeast—seek evaluation.","tags":["infections","yeast"]},
+  {"q":"Do STIs affect menstruation?","a":"Some STIs can cause bleeding or discharge changes. Protection and regular testing are important.","tags":["infections","sti"]},
+
+  {"q":"Why are cycles irregular in my 40s?","a":"Perimenopause causes hormonal fluctuations leading to cycle changes. Symptom management can help.","tags":["menopause","perimenopause"]},
+  {"q":"When is menopause?","a":"After 12 consecutive months without a period, typically around age 51 (varies).","tags":["menopause","basics"]},
+  {"q":"What symptoms occur in perimenopause?","a":"Hot flashes, sleep changes, mood shifts, irregular cycles, and vaginal dryness are common.","tags":["menopause","symptoms"]},
+
+  {"q":"When should I seek medical care for period issues?","a":"Heavy/prolonged bleeding, severe pain, missed periods not due to pregnancy, bleeding between periods, foul odor with symptoms, fever, new severe symptoms, or any concern.","tags":["medical","warning"]},
+  {"q":"What are emergency signs?","a":"Soaking through multiple pads per hour, fainting, severe abdominal pain, or pregnancy with heavy bleeding—seek urgent care.","tags":["medical","urgent"]},
+
+  {"q":"How should athletes manage periods?","a":"Plan products and pain relief, hydrate, fuel adequately, and track symptoms to optimize training.","tags":["lifestyle","athletes"]},
+  {"q":"Do eating disorders affect periods?","a":"Yes. Low body fat and nutrient deficits can suppress ovulation and menstruation.","tags":["nutrition","eating-disorders"]},
+  {"q":"Does travel affect periods?","a":"Yes—jet lag and routine changes can disrupt hormone rhythms and cycle timing.","tags":["lifestyle","travel"]},
+  {"q":"Do high altitudes affect periods?","a":"Some people notice cycle changes at altitude due to physiological stress.","tags":["lifestyle","altitude"]},
+
+  {"q":"What should a teen know about first periods?","a":"Menarche typically occurs between ages 9–15. Irregularity is common early on; basic hygiene and product education help confidence.","tags":["teens","education"]},
+  {"q":"What belongs in a period kit?","a":"Pads/tampons/cup, spare underwear, wipes, a small bag, pain relief if appropriate, and a water bottle.","tags":["teens","kit"]},
+
+  {"q":"Can postpartum periods be irregular?","a":"Yes. After childbirth, cycles may take months to normalize. Breastfeeding can delay the return of periods.","tags":["postpartum","irregular"]},
+  {"q":"Does breastfeeding affect periods?","a":"Breastfeeding can suppress ovulation and delay menstruation for some people.","tags":["postpartum","breastfeeding"]},
+
+  {"q":"How do I track my cycle effectively?","a":"Log period dates, flow intensity, cramps, moods, energy, medications, and potential triggers. Look for patterns over 3–6 months.","tags":["tracking","habits"]},
+  {"q":"How can I reduce period-related stress?","a":"Prepare supplies, use reminders, plan rest, practice relaxation (breathing, mindfulness), and seek social support.","tags":["stress","self-care"]},
+  {"q":"Any cultural considerations?","a":"Periods are experienced within diverse cultural norms. Choose products and practices that align with your values and comfort.","tags":["culture","access"]},
+
+  {"q":"What pain relievers are commonly used?","a":"NSAIDs like ibuprofen or naproxen can reduce pain and flow when taken as directed. Check for personal contraindications.","tags":["medications","pain"]},
+  {"q":"Can tranexamic acid help heavy periods?","a":"It’s a prescription option that can reduce heavy bleeding in some cases. Discuss with a clinician.","tags":["medications","heavy-bleeding"]},
+  {"q":"Do herbal remedies help?","a":"Some report relief with ginger or turmeric; evidence varies. Discuss supplements with a clinician to ensure safety.","tags":["supplements","herbal"]},
+
+  {"q":"How do I choose the right menstrual product?","a":"Consider your flow, comfort, lifestyle, budget, reusability, and access. Many people use a mix (pads/tampons/cups/period underwear).","tags":["products","choice"]},
+  {"q":"How do I avoid leaks?","a":"Choose appropriate absorbency, change regularly, consider backup liners, and track your heavier hours.","tags":["products","leaks"]},
+  {"q":"Are reusable products hygienic?","a":"Yes when cleaned per instructions. They can be economical and eco-friendly.","tags":["products","sustainability"]}
+]
+
