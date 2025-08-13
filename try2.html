@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="try2.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="chat.css">
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        if (window.SORShell) window.SORShell.injectShell('auth');
+      });
+    </script>
+</head>
+<body>
+   
+   
+    
+
+     
+    <main class="app-main">
+    <div class="container" id="container">
+       
+        <div class="form-container sign-in-container">
+            <form action="#" id="signInForm">
+                <h1>Log In</h1>
+                <input type="email" placeholder="Email" id="signInEmail" required>
+                <input type="password" placeholder="Password" id="signInPassword" required>
+                <button type="submit">Log In</button>
+            </form>
+            <h4>Don't have an account?</h4>
+            <a href="signup.html"><h4>Sign up </h4></a>
+            
+        </div>
+        
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.21.0/dist/tf.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.3.3/dist/universal-sentence-encoder.min.js" defer></script>
+    <script src="semantic.js" defer></script>
+    <script src="chat.js" defer></script>
+    <script src="kb_full_loader.js" defer></script>
+    <script src="try2.js"></script>
+</body>
+</html>
