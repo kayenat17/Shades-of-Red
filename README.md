@@ -22,7 +22,7 @@ OVULATION AND MOOD TRACKER
 <img width="654" alt="Screenshot 2025-02-06 033615" src="https://github.com/user-attachments/assets/6fa7f913-1d69-4188-a6ca-cff6ceac65e9" />
 
 # 
-CHATBOT tool
+SOR CHATBOT 
 
 
 <img width="645" height="860" alt="Screenshot 2025-08-13 131145" src="https://github.com/user-attachments/assets/dd561f6f-ed4b-49b5-b8d2-d905d2dbdbe9" />
