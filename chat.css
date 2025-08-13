@@ -1,0 +1,91 @@
+.sor-chat-launcher {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--sor-primary, #932424);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  cursor: pointer;
+  z-index: 1200;
+}
+
+.sor-chat-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+  width: 420px;
+  max-height: 80vh;
+  display: none;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--sor-border, #ead1d1);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  z-index: 1200;
+}
+
+.sor-chat-panel.open { display: flex; }
+
+.sor-chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: var(--sor-surface, #f8efef);
+  border-bottom: 1px solid var(--sor-border, #ead1d1);
+}
+
+.sor-chat-title { font-weight: 700; color: var(--sor-primary, #932424); }
+
+.sor-chat-body { padding: 10px; overflow-y: auto; flex: 1; }
+.sor-chat-msg { margin: 8px 0; display: flex; }
+.sor-chat-msg.bot { justify-content: flex-start; }
+.sor-chat-msg.user { justify-content: flex-end; }
+.sor-chat-bubble { max-width: 80%; padding: 8px 10px; border-radius: 12px; line-height: 1.4; font-size: 14px; }
+.sor-chat-msg.bot .sor-chat-bubble { background: #fbe3e3; color: var(--sor-text, #3d1f1f); }
+.sor-chat-msg.user .sor-chat-bubble { background: var(--sor-primary, #932424); color: #fff; }
+
+.sor-chat-input {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  border-top: 1px solid var(--sor-border, #ead1d1);
+}
+.sor-chat-input input { flex: 1; padding: 8px 10px; border: 1px solid var(--sor-border, #ead1d1); border-radius: 8px; }
+.sor-chat-input button { padding: 8px 12px; border: none; border-radius: 8px; background: var(--sor-accent, #b24141); color: #fff; cursor: pointer; }
+.sor-chat-input button:hover { filter: brightness(0.95); }
+
+.sor-train {
+  border-top: 1px solid var(--sor-border, #ead1d1);
+  padding: 8px 10px;
+  background: var(--sor-surface, #f8efef);
+}
+.sor-train h4 { margin: 6px 0; font-size: 14px; color: var(--sor-text, #3d1f1f); }
+.sor-train input, .sor-train textarea { width: 100%; margin: 4px 0; padding: 6px 8px; border: 1px solid var(--sor-border, #ead1d1); border-radius: 6px; }
+.sor-train textarea { min-height: 60px; }
+.sor-train .row { display: flex; gap: 8px; }
+.sor-train .row > * { flex: 1; }
+.sor-train .actions { display: flex; gap: 8px; justify-content: flex-end; }
+.sor-train .actions .btn-add, .sor-train .actions .btn-clear {
+  padding: 6px 10px; border: none; border-radius: 8px; cursor: pointer;
+}
+.sor-train .actions .btn-add { background: var(--sor-primary, #932424); color: #fff; }
+.sor-train .actions .btn-clear { background: #fff; color: var(--sor-text, #3d1f1f); border: 1px solid var(--sor-border, #ead1d1); }
+.sor-train .actions .btn-clear:hover { background: #fdf6f6; }
+
+/* Related questions styling */
+.sor-related-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.sor-related-btn { border: 1px solid var(--sor-border, #ead1d1); background: #fff; color: var(--sor-text, #3d1f1f); padding: 6px 8px; border-radius: 999px; cursor: pointer; }
+.sor-related-btn:hover { background: var(--sor-surface, #f8efef); }
+
+@media (max-width: 480px) {
+  .sor-chat-panel { right: 12px; bottom: 86px; width: calc(100vw - 24px); max-height: 85vh; }
+}
+
