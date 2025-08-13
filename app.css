@@ -1,0 +1,96 @@
+:root {
+  --sor-bg: #fff7f6;
+  --sor-surface: #f8efef;
+  --sor-text: #3d1f1f;
+  --sor-primary: #932424;
+  --sor-accent: #b24141;
+  --sor-border: #ead1d1;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--sor-bg);
+  color: var(--sor-text);
+  font-family: 'Poppins', Arial, sans-serif;
+  padding-top: 64px; /* space for fixed header */
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background: #ffffffcc;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--sor-border);
+  z-index: 1000;
+}
+
+.app-brand a {
+  color: var(--sor-primary);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.app-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.app-nav a {
+  color: var(--sor-text);
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.app-nav a.active, .app-nav a:hover {
+  background: var(--sor-surface);
+}
+
+.app-user { display: flex; align-items: center; gap: 8px; }
+.app-user .btn {
+  padding: 6px 10px;
+  border: 1px solid var(--sor-border);
+  background: #fff;
+  color: var(--sor-text);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.app-user .btn:hover { background: var(--sor-surface); }
+
+.app-nav-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .app-nav { display: none; position: absolute; top: 64px; left: 0; right: 0; background: #fff; padding: 8px 16px; border-bottom: 1px solid var(--sor-border); }
+  .app-nav.show { display: flex; flex-direction: column; }
+  .app-nav-toggle { display: block; }
+}
+
+.app-main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.app-footer {
+  border-top: 1px solid var(--sor-border);
+  padding: 16px;
+  text-align: center;
+  color: #846b6b;
+}
+
